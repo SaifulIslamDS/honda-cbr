@@ -14,6 +14,7 @@ header {
 }
 #site-banner-section {
     padding-top: 120px;
+    padding-bottom: 100px;
 }
 .banner-subheadline {
     font-size: 14px;
@@ -24,6 +25,15 @@ header {
     font-size: 48px;
     font-weight: 600;
     line-height: 72px;
+}
+.banner-detail {
+    padding-top: 2.5rem;
+}
+
+.banner-text {
+    line-height: 2;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 /* nav bar  */
