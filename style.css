@@ -1,5 +1,8 @@
 /* Import google font poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* import bootstrap icon library */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -8,4 +11,40 @@ header {
 }
 .nav-link {
     color: white !important;
+}
+
+.grayscale-image {
+    filter:grayscale(100%);
+}
+
+/* buttons  */
+.btn-purchase {
+    color: white;
+    background-color: #E76F51;
+    padding: 10px 40px;
+}
+.btn-purchase:hover {
+    color: white;
+    background-color: #a10f0f;
+}
+
+.btn-read-more {
+    color: #E76F51;
+    border: 2px solid #e76f51;
+    padding: 10px 30px;
+}
+
+.btn-read-more:hover {
+    color: white;
+    background-color: #e76f51;
+}
+
+/* clients section  */
+.clients-section-title span {
+    color: #E76F51;
+}
+
+/* FAQ section */
+.faq-section-title span {
+    color: #E76F51;
 }
