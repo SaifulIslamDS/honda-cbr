@@ -6,15 +6,22 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
 header {
     background-color: #264653;
 }
+.site-banner-section {
+    padding-top: 100px;
+}
+.navbar-bg {
+    background-color: #264653;
+} 
 .nav-link {
     color: white !important;
 }
 
 .grayscale-image {
-    filter:grayscale(100%);
+    filter: grayscale(100%);
 }
 
 /* buttons  */
@@ -23,6 +30,7 @@ header {
     background-color: #E76F51;
     padding: 10px 40px;
 }
+
 .btn-purchase:hover {
     color: white;
     background-color: #a10f0f;
@@ -39,12 +47,39 @@ header {
     background-color: #e76f51;
 }
 
-/* clients section  */
-.clients-section-title span {
+.btn-buy-now {
+    color: white;
+    background-color: #E76F51;
+    padding: 10px 40px;
+}
+.btn-buy-now:hover {
+    color: white;
+    background-color: #a10f0f;
+}
+
+/* Section titles  */
+.section-title {
+    color: black;
+    font-size: 36px;
+}
+
+.section-title span {
     color: #E76F51;
 }
 
-/* FAQ section */
-.faq-section-title span {
-    color: #E76F51;
+/* shop section */
+.price {
+    font-size: 2.2em;
+    color: #e76f51;
+    font-weight: 600;
 }
+
+/* features section */
+.feature-image {
+    padding-right: 40px;
+}
+.feature-image img {
+    width: 80px;
+}
+
+/* FAQ section */

@@ -16,9 +16,9 @@
 
 <body>
     <!-- header section -->
-    <header>
+    <header id="header">
         <!-- nav bar start -->
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-bg">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <!-- Brand text and logo here -->
@@ -33,16 +33,25 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#header">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shop</a>
+                            <a class="nav-link" href="#featured-bike">Featured Bike</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">News</a>
+                            <a class="nav-link" href="#news">News</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#shop">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonial">Testimonial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#shop-features">Shop Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -50,64 +59,69 @@
         </nav>
         <!-- nav bar end  -->
         <!-- header banner area  -->
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="banner-detail text-white">
-                        <h3 class="">Computer-controlled digital transistorized with electronic advance</h3>
-                        <h1 class="banner-headline">Honda CBR 300R</h1>
-                        <p class="banner-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-                            Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
-                            amet.</p>
+        <section class="site-banner-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="banner-detail text-white">
+                            <h3 class="">Computer-controlled digital transistorized with electronic advance</h3>
+                            <h1 class="banner-headline">Honda CBR 300R</h1>
+                            <p class="banner-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint.
+                                Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt
+                                nostrud
+                                amet.</p>
 
-                    </div>
+                        </div>
 
-                    <!-- Modal area start -->
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-purchase" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal">
-                        Purchase
-                    </button>
+                        <!-- Modal area start -->
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-purchase" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Purchase
+                        </button>
 
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae esse, repudiandae
-                                    quisquam, earum labore dolores fugiat minus, laudantium aliquam quas et officiis
-                                    illum amet rerum architecto alias asperiores mollitia deleniti?
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary"
-                                        data-bs-dismiss="modal">Close</button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae esse,
+                                        repudiandae
+                                        quisquam, earum labore dolores fugiat minus, laudantium aliquam quas et officiis
+                                        illum amet rerum architecto alias asperiores mollitia deleniti?
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        <!-- modal end -->
                     </div>
-                    <!-- modal end -->
-                </div>
-                <div class="col-lg-6">
-                    <div class="banner-image">
-                        <img class="img-fluid" src="assets/images/header-bike.png" alt="">
+                    <div class="col-lg-6">
+                        <div class="banner-image">
+                            <img class="img-fluid" src="assets/images/header-bike.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </header>
     <!-- header end -->
     <!-- website main area starts -->
     <main>
         <!-- featured bike section start -->
-        <section class="featured-bike-section">
-            <h2 class="feature-section-title text-center">Fetured Bikes 2021</h2>
-            <h6 class="feature-section-subtitle text-center">Best bike collection</h6>
+        <section class="featured-bike-section" id="featured-bike">
+            <h2 class="section-title text-center"><span>Featured</span> Bikes 2021</h2>
+            <h6 class="section-subtitle text-center">Best bike collection</h6>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col">
@@ -124,8 +138,8 @@
         </section>
         <!-- featured bike section end -->
         <!-- latest news section start -->
-        <section class="latest-news-section">
-            <h2 class="news-section-title text-center">latest News</h2>
+        <section class="latest-news-section" id="news">
+            <h2 class="section-title text-center">latest <span>News</span></h2>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
@@ -165,9 +179,57 @@
             </div>
         </section>
         <!-- latest news section end -->
+        <!-- bike shop section start-->
+        <section class="bike-shop-section" id="shop">
+            <h2 class="section-title text-center">Power <span>Bikes</span></h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 single-bike">
+                        <img class="img-fluid bike-image" src="assets/images/bike-4.jpg" alt="">
+                        <h3 class="bike-name">Super Hawk</h3>
+                        <p class="bike-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde
+                            enim labore sit necessitatibus ab magni maiores in, voluptatibus amet quas quo explicabo
+                            fugit. Officiis dolores sequi ipsum sit libero.</p>
+                        <div class="bike-price d-flex justify-content-between">
+                            <p class="price">$3995</p>
+                            <p class="price-btn">
+                                <button type="button" class="btn btn-buy-now">Buy Now</button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 single-bike">
+                        <img class="img-fluid bike-image" src="assets/images/bike-5.jpg" alt="">
+                        <h3 class="bike-name">Road King</h3>
+                        <p class="bike-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde
+                            enim labore sit necessitatibus ab magni maiores in, voluptatibus amet quas quo explicabo
+                            fugit. Officiis dolores sequi ipsum sit libero.</p>
+                        <div class="bike-price d-flex justify-content-between">
+                            <p class="price">$3595</p>
+                            <p class="price-btn">
+                                <button type="button" class="btn btn-buy-now">Buy Now</button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 single-bike">
+                        <img class="img-fluid bike-image" src="assets/images/bike-6.jpg" alt="">
+                        <h3 class="bike-name">Avenger</h3>
+                        <p class="bike-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde
+                            enim labore sit necessitatibus ab magni maiores in, voluptatibus amet quas quo explicabo
+                            fugit. Officiis dolores sequi ipsum sit libero.</p>
+                        <div class="bike-price d-flex justify-content-between">
+                            <p class="price">$4295</p>
+                            <p class="price-btn">
+                                <button type="button" class="btn btn-buy-now">Buy Now</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- bike shop section end-->
         <!-- happy clients section start -->
-        <section class="happy-clients-section">
-            <h2 class="clients-section-title text-center">Happy <span>Clients says</span> </h2>
+        <section class="happy-clients-section" id="testimonial">
+            <h2 class="section-title text-center">Happy <span>Clients says</span> </h2>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 text-center">
@@ -216,9 +278,56 @@
             </div>
         </section>
         <!-- happy clients section end -->
+        <!-- shop features section start -->
+        <section class="shop-features-section" id="shop-features">
+            <h2 class="section-title text-center">Shop <span>Features</span> </h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="single-feature d-flex">
+                            <div class="feature-image">
+                                <img class="img-fluid" src="assets/images/feature-01.png" alt="">
+                            </div>
+                            <div class="feature-info">
+                                <h3 class="feature-title">Find the Perfect Fit</h3>
+                                <p class="feature-text">Everybody is different, which is why we offer styles for every
+                                    body.</p>
+                            </div>
+                        </div>
+                        <div class="single-feature d-flex">
+                            <div class="feature-image">
+                                <img class="img-fluid" src="assets/images/feature-02.png" alt="">
+                            </div>
+                            <div class="feature-info">
+                                <h3 class="feature-title">Free Exchanges</h3>
+                                <p class="feature-text">One of the many reasons you can shop
+                                    with peace of mind.</p>
+                            </div>
+                        </div>
+                        <div class="single-feature d-flex">
+                            <div class="feature-image">
+                                <img class="img-fluid" src="assets/images/feature-03.png" alt="">
+                            </div>
+                            <div class="feature-info">
+                                <h3 class="feature-title">Contact Our Seller</h3>
+                                <p class="feature-text">They are here to help you. That's quite
+                                    literally what we pay them for.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <img class="img-fluid" src="assets/images/shop-feature.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- shop features section end -->
+
         <!-- FAQ section start -->
-        <section class="faq-section">
-            <h2 class="faq-section-title text-center">Frequently Asked <span>Questions</span></h2>
+        <section class="faq-section" id="faq">
+            <h2 class="section-title text-center">Frequently Asked <span>Questions</span></h2>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
@@ -237,7 +346,10 @@
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                                        Safety First! Always obey the rules of the road. Obey all traffic signals,
+                                        signs, and laws. Get in the mindset of “driving” your bike—not just “riding”
+                                        your bike. This will help you be a more focused and legally compliant bike
+                                        rider.
                                     </div>
                                 </div>
                             </div>
@@ -251,7 +363,10 @@
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                                        Safety First! Always obey the rules of the road. Obey all traffic signals,
+                                        signs, and laws. Get in the mindset of “driving” your bike—not just “riding”
+                                        your bike. This will help you be a more focused and legally compliant bike
+                                        rider.
                                     </div>
                                 </div>
                             </div>
@@ -266,7 +381,10 @@
                                 <div id="collapseThree" class="accordion-collapse collapse"
                                     aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                                        Safety First! Always obey the rules of the road. Obey all traffic signals,
+                                        signs, and laws. Get in the mindset of “driving” your bike—not just “riding”
+                                        your bike. This will help you be a more focused and legally compliant bike
+                                        rider.
                                     </div>
                                 </div>
                             </div>
@@ -278,10 +396,13 @@
                                         What rules should I follow when riding my bike?
                                     </button>
                                 </h2>
-                                <div id="collapseFour" class="accordion-collapse collapse"
-                                    aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                                        Safety First! Always obey the rules of the road. Obey all traffic signals,
+                                        signs, and laws. Get in the mindset of “driving” your bike—not just “riding”
+                                        your bike. This will help you be a more focused and legally compliant bike
+                                        rider.
                                     </div>
                                 </div>
                             </div>
