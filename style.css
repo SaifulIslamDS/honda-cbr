@@ -7,17 +7,35 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* header area css */
 header {
+    height: 100vh;
     background-color: #264653;
 }
-.site-banner-section {
-    padding-top: 100px;
+#site-banner-section {
+    padding-top: 120px;
 }
+.banner-subheadline {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+.banner-headline {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+/* nav bar  */
 .navbar-bg {
     background-color: #264653;
+}
+.nav-item {
+    padding-left:20px;
 } 
 .nav-link {
     color: white !important;
+    font-weight: 500;
 }
 
 .grayscale-image {
@@ -28,6 +46,9 @@ header {
 .btn-purchase {
     color: white;
     background-color: #E76F51;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
     padding: 10px 40px;
 }
 
@@ -57,15 +78,34 @@ header {
     background-color: #a10f0f;
 }
 
+/* section padding  */
+.section-padding {
+    padding: 100px 0;
+}
 /* Section titles  */
 .section-title {
-    color: black;
-    font-size: 36px;
+    margin-bottom: 40px;
 }
-
+.section-title h2 {
+    color: black;
+    font-size: 48px;
+    line-height: 72px;
+}
 .section-title span {
     color: #E76F51;
 }
+.section-subtitle {
+    color: #E76F51;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+}
+
+/* featured-bike-section*/
+
+/* latest news section */
+
+
 
 /* shop section */
 .price {
