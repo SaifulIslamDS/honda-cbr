@@ -103,15 +103,55 @@ header {
 
 /* featured-bike-section*/
 
-/* latest news section */
+.single-bike {
+    padding: 15px;
+    box-shadow: 5px 5px 10px gray;
+}
 
+.bike-image {
+    border-radius: 10px;
+}
+
+/* latest news section */
+.news-title {
+    font-size: 26px;
+}
 
 
 /* shop section */
 .price {
-    font-size: 2.2em;
+    font-size: 32px;
     color: #e76f51;
     font-weight: 600;
+}
+
+/* testimonial section  */
+.single-testimonial {
+    margin: 10px 20px;
+    border: 1px solid #DEDEDE;
+    padding: 30px 20px;
+}
+.user-mage {
+    margin-bottom: 20px;
+}
+.client-testimonial {
+    padding: 10px;margin-bottom: 10px;
+}
+
+.client-rating .bi-star-fill {
+    color: #E77C40;
+}
+.client-name {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #23A6F0;
+    font-weight: 600;
+}
+
+.client-title {
+    font-size: 16px;
+    line-height: 24px;
+    color: #252B42;
 }
 
 /* features section */
@@ -120,6 +160,23 @@ header {
 }
 .feature-image img {
     width: 80px;
+}.feature-info {
+    margin-right: 100px;
+}
+.feature-title {
+    font-size: 22px;
+    color: #264653;
+    font-weight: 600;
+}
+.feature-text {
+    line-height: 1.8;
+    font-size: 14px;
 }
 
 /* FAQ section */
+.faq-image {
+    width: 80%;
+}
+#accordionExample {
+    padding: 20px 40px;
+}
