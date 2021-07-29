@@ -9,12 +9,11 @@ body {
 
 /* header area css */
 header {
-    height: 100vh;
     background-color: #264653;
 }
 #site-banner-section {
-    padding-top: 120px;
-    padding-bottom: 100px;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 .banner-subheadline {
     font-size: 14px;
