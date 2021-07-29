@@ -190,3 +190,13 @@ header {
 #accordionExample {
     padding: 20px 40px;
 }
+
+/* modal styles  */
+.modal-header {
+    background-color: #E76F51; 
+    color: white;
+}
+.modal-footer button {
+    padding: 10px 40px;
+    background-color: #E76F51;
+}
